@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!--   title     -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="@string/sign_title"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="25dp"/>
+
+        <!--   e-mail     -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail"
+            android:text="@string/sign_mail"
+            android:textColor="@color/black"
+            android:textSize="26sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail1"
+            android:hint="@string/sign_mail_hint"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!--   password     -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"
+            android:text="@string/sign_pass"
+            android:textColor="@color/black"
+            android:textSize="26sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass1"
+            android:hint="@string/sign_pass_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInButton"
+            android:text="@string/signIn_button"
+            android:textColor="@color/black"
+            android:textSize="26sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

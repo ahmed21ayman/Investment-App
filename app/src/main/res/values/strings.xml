@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Invest</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_plans">My Plans</string>
+    <string name="nav_receipts">Receipts</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_assets">Assets</string>
     <string name="open_message">Welcome to Future Plan</string>
+    <string name="sign_title">Create Account to Start Building a Future</string>
+    <string name="sign_fName">First Name</string>
+    <string name="sign_fName_hint">ahmed</string>
+    <string name="sign_lName">Last Name</string>
+    <string name="sign_lName_hint">ayman</string>
+    <string name="sign_phone">Phone Number</string>
+    <string name="sign_phone_hint">+201127722718</string>
+    <string name="sign_mail">e-mail</string>
+    <string name="sign_mail_hint">example@gmail.com</string>
+    <string name="sign_pass">Password</string>
+    <string name="sign_pass_hint">AgmYYtsdi$$351</string>
+    <string name="signIn_button">Login</string>
+    <string name="signUp_button">Signup</string>
+    <string name="launcher_title">Welcome Back</string>
+    <string name="launcher_sup_title">Plan Your World</string>
 </resources>
